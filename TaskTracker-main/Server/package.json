@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "firebase": "^8.10.0",
+    "jsonwebtoken": "^9.0.0"
+  }
+}

@@ -1,0 +1,52 @@
+POST http://localhost:5000/create
+Content-Type: application/json
+
+{
+    "name": "omar2",
+    "phone": "0778788014",
+    "email": "omar@gmail.com",
+    "password": "123Omar!",
+    "Task" : [{"a" : "1"}, {"b": "2"}]
+}
+
+
+###
+
+GET http://localhost:5000/
+
+
+###
+POST http://localhost:5000/update
+Content-Type: application/json
+
+{
+    "id": "x4dZlC6EF6IXSTZ3czhN",
+    "name": "esraa Zyoud"
+}
+
+
+###
+POST http://localhost:5000/delete
+Content-Type: application/json
+
+{
+    "id": "PxP3ifJLty9fQWVhu7TL"
+}
+
+###
+GET http://localhost:5000/LogIn
+Content-Type: application/json
+Authorization: Breaer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiT21hciIsImVtYWlsIjoib21hckBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjEyM09tYXIhIiwiaWF0IjoxNjg0OTAzODI2fQ.jJxPVRNy96UK0docH9aMrJKfFN4QXeYn9g1KRZR2q2k
+
+{
+    
+}
+
+###
+POST http://localhost:5000/Login
+Content-Type: application/json
+
+{
+    "email": "omar@gmail.com",
+    "password": "123456"
+}
